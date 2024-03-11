@@ -1,41 +1,50 @@
+/* Estilos para o corpo da página */
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    margin: 0; /* Remove as margens padrão do corpo da página */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte padrão para o corpo da página */
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%); /* Define um fundo com gradiente linear */
 }
 
+/* Estilos para a classe .page */
 .page {
-    margin: 0 auto;
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
     padding-top: 65px;
-    width: 1000px;
+    width: 1000px; /* Define a largura do elemento */
 }
+
+/* Estilos para a navegação */
 nav {
     display: flex;
-    justify-content: space-between; /*Distancia igual entre os itens*/
+    justify-content: space-between; /* Distância igual entre os itens */
     align-items: center;
     margin-bottom: 55px;
 }
-ul{
+
+/* Estilos para a lista não ordenada */
+ul {
     display: flex;
-    gap: 48px; /*Distancia igual entre os itens (sem bordas)*/
-    list-style-type: none; /*Não mostrar os ponstos da lista*/
-    
+    gap: 48px; /* Distância igual entre os itens (sem bordas) */
+    list-style-type: none; /* Não mostrar os pontos da lista */
     margin: 0;
     padding: 0;
 }
-a{
+
+/* Estilos para os links */
+a {
     text-decoration: none;
 }
-main
-{
+
+/* Estilos para a seção principal */
+main {
     display: flex;
-    align-items: center; /*mesmo alinhamento*/
-    justify-content: space-between; /*Um para cada lado*/
+    align-items: center; /* Mesmo alinhamento vertical */
+    justify-content: space-between; /* Um para cada lado */
 }
-button
-{
+
+/* Estilos para os botões */
+button {
     color: white;
-    text-transform: uppercase; /*Maisculo*/
+    text-transform: uppercase; /* Transforma o texto em maiúsculo */
     align-content: center;
     border: 0;
     padding: 14px 32px 15px;
@@ -44,28 +53,36 @@ button
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover{
-    background: #0c6e4c; /*muda a cor do ponto em que você passa o mouse*/
+
+button:hover {
+    background: #0c6e4c; /* Muda a cor do ponto quando passa o mouse */
 }
-footer
-{
+
+/* Estilos para o rodapé */
+footer {
     font-size: 14px;
     line-height: 28px;
     text-align: center;
     margin-top: 80px;
 }
-h1, ul 
-{
+
+/* Estilos para os elementos h1 e ul */
+h1, ul {
    font-family: "Mulish", sans-serif;
 }
+
+/* Estilos para os links da lista quando hover */
 ul li a:hover {
     font-weight: bold;
     opacity: 1;
 }
+
+/* Estilos para os links da lista */
 ul li a {
     opacity: 0.5;
 }
 
-span{
+/* Estilos para o elemento span */
+span {
     color: #89c5cc;
 }
